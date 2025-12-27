@@ -1,10 +1,11 @@
-blak = Color3.new(0,0,0)
-rede = Color3.new(255/255,0/255,0/255)
-tef = "SourceSans"
-whit = Color3.new(255/255,255/255,255/255)
+local blak = Color3.new(0,0,0)
+local rede = Color3.new(255/255,0/255,0/255)
+local tef = "SourceSans"
+local whit = Color3.new(255/255,255/255,255/255)
+
 local cka = Instance.new("ScreenGui")
 	cka.Parent = game.Players.LocalPlayer.PlayerGui
-	cka.Name = "culgui"
+	cka.Name = "c00lgui"
 local frame = Instance.new("Frame")
 	frame.Parent = cka
 	frame.BackgroundColor3 = blak
